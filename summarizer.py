@@ -9,7 +9,7 @@ from langchain.docstore.document import Document
 from langchain.prompts import PromptTemplate
 
 # Initialize LLM
-os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY", "AIzaSyAMFqmjvKtM6s3B9fbdy2dMziV8jplXhDQ")
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY", "")
 llm = GoogleGenerativeAI(model="gemini-2.0-flash", temperature=0.7)
 
 def extract_text(file):
