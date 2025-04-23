@@ -1,0 +1,6 @@
+streamlit
+PyPDF2
+markdown
+langchain
+langchain-google-genai
+fpdf 
